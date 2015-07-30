@@ -1,12 +1,3 @@
-/**
- * Egg Staff
- *
- * 
- * @Author Dalthow Game Studios 
- * @Class RecipeHandler.java
- * 
- **/
-
 package com.dalthow.eggstaff.handler;
 
 import net.minecraft.init.Items;
@@ -16,10 +7,22 @@ import com.dalthow.eggstaff.base.Main;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 
+/**
+ * Egg Staff
+ *
+ * 
+ * @author Dalthow Game Studios 
+ * @class RecipeHandler.java
+ * 
+ **/
+
 public class RecipeHandler 
 {
-	// Is called during the initialisation of the game to load the modded recipes
-	
+	/**
+     * addRecipes Adds custom recipe's to the game if they are allowed to be crafted.
+     *
+     * @return {void}
+     */
 	public static void addRecipes()
 	{
 		if(Main.recipeEggStaff.getBoolean(false) == true)

@@ -1,17 +1,17 @@
+package com.dalthow.eggstaff.base;
+
 /**
  * Egg Staff
  *
  * 
- * @Author Dalthow Game Studios 
- * @Class Reference.java
+ * @author Dalthow Game Studios 
+ * @class Reference.java
  * 
  **/
 
-package com.dalthow.eggstaff.base;
-
 public class Reference 
 {
-	 // Global information
+	// Global information.
 	
 	public final static String name = "Egg Staff";
 	public final static String version = "0.2.0.0";

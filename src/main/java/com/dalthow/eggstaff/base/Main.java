@@ -1,12 +1,3 @@
-/**
- * Egg Staff
- *
- * 
- * @Author Dalthow Game Studios 
- * @Class Main.java
- * 
- **/
-
 package com.dalthow.eggstaff.base;
 
 import java.io.File;
@@ -26,21 +17,30 @@ import com.dalthow.eggstaff.item.ItemEggStaff;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 
+/**
+ * Egg Staff
+ *
+ * 
+ * @author Dalthow Game Studios 
+ * @class Main.java
+ * 
+ **/
+
 @Mod(modid = Reference.modId, name = Reference.name, version = Reference.version)
 public class Main 
 {
-	// Declaration for items
+	// Declaration for items.
 	
 	public static Item itemEggStaff;
 	public static Item itemCapturingEgg;
 	
 	
-	// Declaration for tool materials 
+	// Declaration for tool materials .
 	
 	public static ToolMaterial materialStaff;
 	
 	
-	// Declaration for the configuration file variables
+	// Declaration for the configuration file variables.
 	
 	public static Property recipeEggStaff;
 	public static Property recipeCapturingEgg;
@@ -51,15 +51,23 @@ public class Main
 	public static int requiredLevelHostile;
 	
 	
-	// Initialisation that happens before any of the world is loaded
+	// Initialization that happens before any of the world is loaded.
 	
 	@Mod.EventHandler
 	public void preInit(FMLInitializationEvent event)
 	{
+		// Creating the staff material.
+		
 		materialStaff = EnumHelper.addToolMaterial("materialStaff", 0, 20, 0.5F, -3.0F, 0);
+		
+		
+		// Setting up the items.
 		
 		itemEggStaff = new ItemEggStaff(materialStaff);
 		itemCapturingEgg  = new ItemCapturingEgg();
+		
+		
+		// Creates a configuration file if there isn't one already.
 		
 		Configuration config = new Configuration(new File("config/" + Reference.modId + ".cfg"));
 		
@@ -70,6 +78,9 @@ public class Main
 		
 		recipeEggStaff = config.get("Recipes", "Egg Staff", true);
 		recipeCapturingEgg = config.get("Recipes", "Capturing Egg", true);
+		
+		
+		// Putting in the friendly mobs.
 		
 		mobAllow.put("Bat", Boolean.valueOf(config.get("Passive Mobs", "Bat", true).getBoolean(true)));
 	    mobAllow.put("Pig", Boolean.valueOf(config.get("Passive Mobs", "Pig", true).getBoolean(true)));
@@ -82,6 +93,9 @@ public class Main
 	    mobAllow.put("Ozelot", Boolean.valueOf(config.get("Passive Mobs", "Ozelot", true).getBoolean(true)));
 	    mobAllow.put("Villager", Boolean.valueOf(config.get("Passive Mobs", "Villager", false).getBoolean(false)));
 	    mobAllow.put("EntityHorse", Boolean.valueOf(config.get("Passive Mobs", "Horse", false).getBoolean(false)));
+	    
+	    
+	    // Putting in the hostile mobs.	    
 	    
 	    mobAllow.put("Creeper", Boolean.valueOf(config.get("Hostile Mobs", "Creeper", true).getBoolean(true)));
 	    mobAllow.put("Skeleton", Boolean.valueOf(config.get("Hostile Mobs", "Skeleton", true).getBoolean(true)));
@@ -99,7 +113,13 @@ public class Main
 
 		config.save();
 		
+		
+		// Adding the custom recipe's to the game.
+		
 		RecipeHandler.addRecipes();
+		
+		
+		// Registering the items in the item registry.
 		
 		RegisterHandler.registerItem(itemEggStaff);
 		RegisterHandler.registerItem(itemCapturingEgg);
