@@ -8,16 +8,12 @@ import com.dalthow.eggstaff.base.Reference;
 /**
  * Egg Staff
  *
- * 
- * @author Dalthow Game Studios 
- * @class ItemCaptureEgg.java
- * 
+ * @author Trevi Awater
  **/
 
 public class ItemCapturingEgg extends Item 
 {
 	// Constructor that adds data to the item.
-	
 	public ItemCapturingEgg()
 	{
 		super();

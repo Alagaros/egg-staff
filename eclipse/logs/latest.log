@@ -1,11 +1,38 @@
-[21:00:52] [main/INFO]: Setting user: Player241
-[21:00:54] [Client thread/INFO]: LWJGL Version: 2.9.1
-[21:01:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Egg Staff
-[21:01:05] [Sound Library Loader/INFO]: Sound engine started
-[21:01:05] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[21:01:05] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[21:01:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Egg Staff
-[21:01:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:01:06] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[21:01:07] [Sound Library Loader/INFO]: Sound engine started
-[21:01:14] [Client thread/INFO]: Stopping!
+[22:23:06] [main/INFO]: Setting user: Player570
+[22:23:07] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:23:17] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Egg Staff
+[22:23:18] [Sound Library Loader/INFO]: Sound engine started
+[22:23:19] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[22:23:19] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[22:23:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Egg Staff
+[22:23:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:23:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:23:20] [Sound Library Loader/INFO]: Sound engine started
+[22:26:36] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[22:26:36] [Server thread/INFO]: Generating keypair
+[22:26:37] [Server thread/INFO]: Preparing start region for level 0
+[22:26:38] [Server thread/INFO]: Changing view distance to 12, from 10
+[22:26:38] [Server thread/INFO]: Player570[local:E:e35e2fc1] logged in with entity id 544 at (175.08683866330563, 68.0, 201.54133093177265)
+[22:26:38] [Server thread/INFO]: Player570 joined the game
+[22:26:40] [Client thread/INFO]: Warning: Clientside chunk ticking took 125 ms
+[22:26:44] [Server thread/INFO]: Player570 has just earned the achievement [Taking Inventory]
+[22:26:44] [Client thread/INFO]: [CHAT] Player570 has just earned the achievement [Taking Inventory]
+[22:26:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 182 ms
+[22:26:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 155 ms
+[22:26:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 120 ms
+[22:26:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 116 ms
+[22:26:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 104 ms
+[22:26:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 102 ms
+[22:26:57] [Client thread/INFO]: Warning: Clientside chunk ticking took 104 ms
+[22:26:58] [Client thread/INFO]: Warning: Clientside chunk ticking took 105 ms
+[22:27:02] [Server thread/INFO]: Saving and pausing game...
+[22:27:02] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[22:27:02] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[22:27:02] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[22:27:02] [Server thread/INFO]: Stopping server
+[22:27:02] [Server thread/INFO]: Saving players
+[22:27:02] [Server thread/INFO]: Saving worlds
+[22:27:02] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[22:27:02] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[22:27:02] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[22:27:04] [Client thread/INFO]: Stopping!

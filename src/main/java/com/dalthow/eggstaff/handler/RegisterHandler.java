@@ -9,20 +9,15 @@ import cpw.mods.fml.common.registry.GameRegistry;
 /**
  * Egg Staff
  *
- * 
- * @author Dalthow Game Studios 
- * @class RegisterHandler.java;
- * 
+ * @author Trevi Awater
  **/
 
 public class RegisterHandler 
 {
 	/**
-     * registerItem Registers a item so that it gets loaded in the game.
+     * Registers a item so that it gets loaded in the game.
      *
-     * @param {Item} item The item that should be registered.
-     *
-     * @return {void}
+     * @param item The item that should be registered.
      */
 	public static void registerItem(Item item)
 	{
