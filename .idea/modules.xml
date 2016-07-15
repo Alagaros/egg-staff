@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/egg-staff.iml" filepath="$PROJECT_DIR$/egg-staff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/egg-staff.iml" filepath="$PROJECT_DIR$/.idea/modules/egg-staff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/egg-staff_api.iml" filepath="$PROJECT_DIR$/.idea/modules/egg-staff_api.iml" group="egg-staff" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/egg-staff_main.iml" filepath="$PROJECT_DIR$/.idea/modules/egg-staff_main.iml" group="egg-staff" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/egg-staff_test.iml" filepath="$PROJECT_DIR$/.idea/modules/egg-staff_test.iml" group="egg-staff" />
     </modules>
   </component>
 </project>

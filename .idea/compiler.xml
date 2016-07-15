@@ -18,5 +18,10 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="egg-staff_api" target="1.6" />
+      <module name="egg-staff_main" target="1.6" />
+      <module name="egg-staff_test" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
